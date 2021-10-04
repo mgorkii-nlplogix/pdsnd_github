@@ -37,6 +37,7 @@ def get_filters():
                 month = str(input("Which month - January, February, March, April, May, or June ")).lower().strip()
                 if month == 'all':
                     month = None
+                    print ('All months filter chosen')
                     break
  
         elif filter == 'day':
