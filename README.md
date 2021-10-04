@@ -20,3 +20,6 @@ bikeshare.py is a scrupt used for python part of the course
 
 ### Data
 Data used for bikeshare is added to .gitignore
+
+### Fork Author
+This fork is made by Maksim Gorkii
