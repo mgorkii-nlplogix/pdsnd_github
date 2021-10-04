@@ -17,3 +17,6 @@ It's important to give proper credit. Add links to any repo that inspired you or
 
 ### Bikeshare
 bikeshare.py is a scrupt used for python part of the course 
+
+### Data
+Data used for bikeshare is added to .gitignore
