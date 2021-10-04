@@ -25,6 +25,7 @@ def get_filters():
     while True:
         city, month, day = None, None, None
         
+        # make sure the user enters the city 
         while (city not in CITY_DATA) and (city != 'new york') :
             city = str(input("Would you like to see data for Chicago, New York, or Washington? ")).lower().strip()
             if city == 'new york':
@@ -37,6 +38,7 @@ def get_filters():
                 month = str(input("Which month - January, February, March, April, May, or June ")).lower().strip()
                 if month == 'all':
                     month = None
+                    print ('All months filter chosen')
                     break
  
         elif filter == 'day':
@@ -161,7 +163,7 @@ def user_stats(df, city):
     print('\nCalculating User Stats...\n')
     start_time = time.time()
 
-    # TO DO: Display counts of user types
+    # Display counts of user types
     user_types_count = df['User Type'].value_counts()
     print('\nCounts of user types for selected filter : ' + '\n' + str(user_types_count))
 
