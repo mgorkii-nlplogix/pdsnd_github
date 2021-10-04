@@ -23,3 +23,6 @@ Data used for bikeshare is added to .gitignore
 
 ### Fork Author
 This fork is made by Maksim Gorkii
+
+### Run bikeshare
+To run bikeshare.py run python bikeshare.py in terminal
